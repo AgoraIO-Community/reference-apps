@@ -11,7 +11,7 @@ Build your own tutoring application which allows you to create lessons as a teac
 ## Virtual Web Space
 The Agora Virtual Space is a demo of a web app where users can sign up to join a 2D virtual space. Users can create a space or join existing ones. While in the 2D space, users get assigned a character that they can move around on the screen. When nearby of other users in that space, they can share voice & video other users in real-time.
 
-[Learn General Concepts in `TUTORING.md`](https://github.com/AgoraIO-Community/reference-apps/blob/main/VIRTUALSPACE.md)
+[Learn General Concepts in `VIRTUALSPACE.md`](https://github.com/AgoraIO-Community/reference-apps/blob/main/VIRTUALSPACE.md)
 
 ### Platform Specific Code
 [Web](https://github.com/EkaanshArora/agora-virtualspace/tree/main)
