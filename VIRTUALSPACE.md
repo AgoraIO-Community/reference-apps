@@ -1,38 +1,38 @@
 # Agora Virtual Space
 
-The Agora Virtual Space is a demo of a web app wher users can sign up to join a 2D virtual space. Users can create a space or join existing ones. While in the 2D space, users get assigned a character that they can move around on the screen. When in close proximity of others users in that space, they can share voice & video other users in real-time.
+The Agora Virtual Space is a demo of a web app where users can sign up to join a 2D virtual space. Users can create a space or join existing ones. While in the 2D space, users get assigned a character that they can move around on the screen. When near other users in that space, they can share voice & video with other users in real-time.
 
 > Here's a [live demo](https://agora-virtualspace.vercel.app/)
 
-![screenshot](/readmeassets/screenshot.png)
+![screenshot](/assets/screenshot.png)
 
 ## Screenshots
 ### Home
-![](readmeassets/home.png)
+![](assets/home.png)
 ### Create Room
-![](readmeassets/create.png)
+![](assets/create.png)
 
 ### View Rooms
-![](readmeassets/view.png)
+![](assets/view.png)
 ### VirtualSpace
-![](readmeassets/screenshot.png)
+![](assets/screenshot.png)
 ## Features
 
-| **Feature** | **Description** |
-| --- | --- |
-| OAuth | Uses NextAuth for authentication |
-| Space Management | Create and join rooms |
-| Virtual Environment | A 2D environment that resembles an office or an event |
-| User Avatar | A 2D avatar that the user can move around in the virtual space with the keyboard |
-| Data Synchronisation | Sync locations across user |
-| Animations | Animate the avatar with a sprite sheet |
-| Voice Channel | Ability for users to communicate with each other over voice |
-| Video Feeds | Display user videos |
-| Agora Tokens | Expose an API to secure rooms  |
-| Proximity Subscription | Ability to join a voice channel based on location proximity |
-| User controls | Ability to mute/unmute local audio/video feeds |
-| Mobile Support | Works on mobile devices using gesture handler |
-| Deployment (CI/CD) | Deploy the frontend and backend online |
+| **Feature**            | **Description**                                                                  |
+| ---------------------- | -------------------------------------------------------------------------------- |
+| OAuth                  | Uses NextAuth for authentication                                                 |
+| Space Management       | Create and join rooms                                                            |
+| Virtual Environment    | A 2D environment that resembles an office or an event                            |
+| User Avatar            | A 2D avatar that the user can move around in the virtual space with the keyboard |
+| Data Synchronisation   | Sync locations across user                                                       |
+| Animations             | Animate the avatar with a sprite sheet                                           |
+| Voice Channel          | Ability for users to communicate with each other over voice                      |
+| Video Feeds            | Display user videos                                                              |
+| Agora Tokens           | Expose an API to secure rooms                                                    |
+| Proximity Subscription | Ability to join a voice channel based on location proximity                      |
+| User controls          | Ability to mute/unmute local audio/video feeds                                   |
+| Mobile Support         | Works on mobile devices using gesture handler                                    |
+| Deployment (CI/CD)     | Deploy the frontend and backend online                                           |
 
 ### OAuth
 We're use Google OAuth to make signups easy, we store each user in a database along with their access/refresh tokens tied to their OAuth account. Only logged in user's are allowed to create and join spaces. On sign-up we also assign them unique IDs to use as Agora UIDs.
@@ -61,10 +61,10 @@ The project contains a frontend, a backend server and a database that are all ho
 
 ## Diagrams
 ### Architecture
-![](readmeassets/architecture.png)
+![](assets/architecture.png)
 The application is built with Next.js so we have a monorepo for the frontend and the backend. The frontend uses React Three Fiber to render the 2D environment and the user avatars. The backend uses tRPC to expose an API to generate Agora tokens and manage user data. The frontend and backend are hosted on Vercel and the database is hosted on Planetscale. 
 ### User Flow
-![](readmeassets/userflow.png)
+![](assets/userflow.png)
 The user flow is simple, a user signs up using OAuth and is redirected to the home page. From here they can create a space or join an existing one. Once they join a space, they can move around their avatar with the keyboard and communicate with other users within their proximity.
 
 ### Running Locally

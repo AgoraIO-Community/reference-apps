@@ -8,6 +8,13 @@ Build your own tutoring application which allows you to create lessons as a teac
 ### Platform Specific Code
 [Flutter](https://github.com/AgoraIO-Community/tutoring-reference-app)
 
+## Virtual Web Space
+The Agora Virtual Space is a demo of a web app where users can sign up to join a 2D virtual space. Users can create a space or join existing ones. While in the 2D space, users get assigned a character that they can move around on the screen. When nearby of other users in that space, they can share voice & video other users in real-time.
+
+[Learn General Concepts in `TUTORING.md`](https://github.com/AgoraIO-Community/reference-apps/blob/main/VIRTUALSPACE.md)
+
+### Platform Specific Code
+[Web](https://github.com/EkaanshArora/agora-virtualspace/tree/main)
 
 
 ## All Available Reference Apps
@@ -15,10 +22,11 @@ Build your own tutoring application which allows you to create lessons as a teac
 Currently, the Agora Developer Relations Team has created reference apps for several platforms, including but not limited to:
 
 
-|                              General Application Guide                              |                               Flutter                               |                                    iOS                                     |
-| :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------------------------------: |
-| [Tutor](https://github.com/AgoraIO-Community/reference-apps/blob/main/TUTORING.md)  | [Code](https://github.com/AgoraIO-Community/tutoring-reference-app) |                                                                            |
-| [Live Shopping](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios) |                                                                     | [Code](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios) |
+|                                   General Application Guide                                    |                               Flutter                               |                                    iOS                                     |                                 Web                                  |
+| :--------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------: |
+|       [Tutor](https://github.com/AgoraIO-Community/reference-apps/blob/main/TUTORING.md)       | [Code](https://github.com/AgoraIO-Community/tutoring-reference-app) |                                                                            |                                                                      |
+| [Virtual Space](https://github.com/AgoraIO-Community/reference-apps/blob/main/VIRTUALSPACE.md) |                                                                     |                                                                            | [Code](https://github.com/EkaanshArora/agora-virtualspace/tree/main) |
+|      [Live Shopping](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios)       |                                                                     | [Code](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios) |                                                                      |
 
 Please note that not every example has been built for each platform at this time. However, we encourage contributions and suggestions from the community to expand the availability of these reference apps to more platforms.
 
