@@ -16,6 +16,13 @@ The Agora Virtual Space is a demo of a web app where users can sign up to join a
 ### Platform Specific Code
 [Web](https://github.com/EkaanshArora/agora-virtualspace/tree/main)
 
+## Speed Dating App
+Create your own speed dating app with Agora UIKits, featuring video calling, real-time messaging, and video filters. The UIKits offer default user interfaces with extensive customization options. Additional features include OAuth integration, database management, storage, and a powerful user matching algorithm, among others. 
+
+[Learn General Concepts in `DATING.md`](https://github.com/AgoraIO-Community/reference-apps/blob/main/DATING.md)
+
+### Platform Specific Code
+[Flutter](http://github.com/Meherdeep/swipe-app)
 
 ## All Available Reference Apps
 
@@ -27,6 +34,7 @@ Currently, the Agora Developer Relations Team has created reference apps for sev
 |       [Tutor](https://github.com/AgoraIO-Community/reference-apps/blob/main/TUTORING.md)       | [Code](https://github.com/AgoraIO-Community/tutoring-reference-app) |                                                                            |                                                                      |
 | [Virtual Space](https://github.com/AgoraIO-Community/reference-apps/blob/main/VIRTUALSPACE.md) |                                                                     |                                                                            | [Code](https://github.com/EkaanshArora/agora-virtualspace/tree/main) |
 |      [Live Shopping](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios)       |                                                                     | [Code](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios) |                                                                      |
+|       [Dating App](https://github.com/AgoraIO-Community/reference-apps/blob/main/DATING.md)       | [Code](http://github.com/Meherdeep/swipe-app) |                                                                            |                                                                      |
 
 Please note that not every example has been built for each platform at this time. However, we encourage contributions and suggestions from the community to expand the availability of these reference apps to more platforms.
 
