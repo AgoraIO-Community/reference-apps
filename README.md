@@ -15,8 +15,8 @@ The Agora Virtual Space is a demo of a web app where users can sign up to join a
 
 ### Platform Specific Code
 
-|[Web](https://github.com/EkaanshArora/agora-virtualspace/tree/main)|
-|-|
+| [Web](https://github.com/EkaanshArora/agora-virtualspace/tree/main) |
+| ------------------------------------------------------------------- |
 
 ## Speed Dating App
 Create your own speed dating app with Agora UIKits, featuring video calling, real-time messaging, and video filters. The UIKits offer default user interfaces with extensive customization options. Additional features include OAuth integration, database management, storage, and a powerful user matching algorithm, among others. 
@@ -25,8 +25,8 @@ Create your own speed dating app with Agora UIKits, featuring video calling, rea
 
 ### Platform Specific Code
 
-|[Flutter](http://github.com/Meherdeep/swipe-app)|
-|-|
+| [Flutter](http://github.com/Meherdeep/swipe-app) |
+| ------------------------------------------------ |
 
 ## Live Shopping
 
@@ -36,20 +36,30 @@ Create your own live shopping app with Agora RTC and Signaling. Featuring video 
 
 ### Platform Specific Code
 
-|[iOS](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios)|
-|-|
+| [iOS](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios) |
+| ------------------------------------------------------------------------- |
+
+## Metaverse 
+
+You want to build a cool metaverse in which people can join and meet. If you are wondering how to enable user engagement with video and voice chat and event synchronization you’re in the right place. This guide walks you through building your own metaverse application to include video chat, spatial audio, media player, and other real-time actions.
+
+### Platform Specific Code
+
+| [Unity](https://github.com/AgoraIO-Community/Agora_Spaces_Unity) |
+| ---------------------------------------------------------------- |
 
 ## All Available Reference Apps
 
 Currently, the Agora Developer Relations Team has created reference apps for several platforms, including but not limited to:
 
 
-| General Application Guide | Flutter | iOS | Web |
-|:-:|:-:|:-:|:-:|
-| [Tutor](TUTORING.md) | [Code](https://github.com/AgoraIO-Community/tutoring-reference-app) | | |
-| [Virtual Space](VIRTUALSPACE.md) | | | [Code](https://github.com/EkaanshArora/agora-virtualspace/tree/main) |
-| [Live Shopping](LIVESHOPPING.md) | | [Code](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios) | |
-| [Dating App](DATING.md) | [Code](http://github.com/Meherdeep/swipe-app) | | |
+|    General Application Guide     |                               Flutter                               |                                    iOS                                     |                                 Web                                  |                              Unity                              |
+| :------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------: | :-------------------------------------------------------------: |
+|       [Tutor](TUTORING.md)       | [Code](https://github.com/AgoraIO-Community/tutoring-reference-app) |                                                                            |                                                                      |                                                                 |
+| [Virtual Space](VIRTUALSPACE.md) |                                                                     |                                                                            | [Code](https://github.com/EkaanshArora/agora-virtualspace/tree/main) |                                                                 |
+| [Live Shopping](LIVESHOPPING.md) |                                                                     | [Code](https://github.com/AgoraIO-Community/referenceapp-liveshopping-ios) |                                                                      |                                                                 |
+|     [Dating App](DATING.md)      |            [Code](http://github.com/Meherdeep/swipe-app)            |                                                                            |                                                                      |                                                                 |
+|          Metaverse App           |                                                                     |                                                                            |                                                                      | [Code](https://github.com/AgoraIO-Community/Agora_Spaces_Unity) |
 
 Please note that not every example has been built for each platform at this time. However, we encourage contributions and suggestions from the community to expand the availability of these reference apps to more platforms.
 
